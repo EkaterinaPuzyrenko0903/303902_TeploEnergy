@@ -1,0 +1,71 @@
+@import url('site.css');
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #258cfb;
+    font-size: 15px;
+    background: #fff !important;
+}
+.table th {
+    font-weight: bold;
+    padding: 7px;
+    background: #ffd300;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #ffd300;
+    }
+
+.table td {
+    padding: 7px;
+    border: 3px solid #258cfb;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+}
+
+.table tbody tr:nth-child(even) {
+    background: #f8f8f8 !important;
+}
+.c-button {
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #258cfb;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+.text-block {
+    margin-left: 20px;
+}
+.color {
+    color: #258cfb;
+}

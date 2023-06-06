@@ -1,0 +1,25 @@
+﻿@model Output
+@{
+    ViewData["Title"] = "Лучистый теплообмен";
+}
+@if (Model != null)
+{
+    <p>Параметр</p>
+    <input class="form-control" value="@Math.Round(@Model.ps,4)" readonly/>
+    <p>Эффективная толщина излучающего слоя</p>
+    <input class ="form-control"value="@Math.Round(@Model.s,4)" readonly />
+    <p>Коэффициент поглощения газового объема, Кε</p>
+    <input class="form-control"value="@Math.Round(@Model.k_e,4)" readonly />
+    <p>Коэффициент поглощения газового объема, Кλ</p>
+    <input class="form-control"value="@Math.Round(@Model.k_l,4)" readonly />
+    <p>Степень черноты газов εд</p>
+    <input class="form-control"value="@Math.Round(@Model.e_d,4)" readonly />
+    <p>Степень черноты газов адл</p>
+    <input class="form-control"value="@Math.Round(@Model.a_d,4)" readonly />
+    <p>Приведенный коэффициент излучения</p>
+    <input class="form-control"value="@Math.Round(@Model.c_pr,4)" readonly />
+    <p>Коэффициент теплоотдачи излучением</p>
+    <input class="form-control"value="@Math.Round(@Model.a_dl,4)" readonly />
+}
+
+

@@ -1,0 +1,44 @@
+﻿@model HomeViewModel
+@{
+    ViewData["Title"] = "Конвективный теплообмен";
+}
+<form action="/Home/Result_k" method="post">
+    Название варианта:
+    <input class ="form-control"name="name" value="@Model.Variant?.Name" />
+    Диаметр трубы, м:
+    <input class ="form-control"name="d" value="@Model.Variant?.d"/>
+    Скорость потока:
+        <input class ="form-control"name="w" value="@Model.Variant?.w"/>
+    Средняя температура потока:
+        <input class ="form-control"name="t"value="@Model.Variant?.t"/>
+        <p></p>
+    <button class="c-button">Рассчитать</button>
+</form> 
+
+<h2>Варианты расчетов</h2>
+<p></p>
+<table class="table table-border">
+    <tr>
+        <td><b>Название варианта</b></td>
+        <td><b>Диаметр трубы</b></td>
+        <td><b>Скорость потока</b></td>
+        <td><b>Средняя температура потока</b></td>
+    </tr>
+
+    @foreach (var variant in Model.Variants)
+    {
+        <tr>
+            <td>@variant.Name</td>
+            <td>@variant.d</td>
+            <td>@variant.w</td>
+            <td>@variant.t</td>
+            <td>
+                <a class="color"href="/Home/Index_k/?variantId=@variant.Id">Открыть</a>
+                <a class="color"href="/Home/Remove/?variantId=@variant.Id">Удалить</a>
+            </td>
+        </tr>
+
+    }
+
+
+</table>

@@ -1,0 +1,12 @@
+D:\programm\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.deps.json
+D:\programm\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.dll
+D:\programm\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.pdb
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.csproj.AssemblyReference.cache
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfoInputs.cache
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfo.cs
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.csproj.CoreCompileInputs.cache
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.dll
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\refint\ClassLib.dll
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.pdb
+D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll

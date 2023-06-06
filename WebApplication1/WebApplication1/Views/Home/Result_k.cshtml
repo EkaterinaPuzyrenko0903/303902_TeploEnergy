@@ -1,0 +1,60 @@
+﻿@model Output
+@{
+    ViewData["Title"] = "Конвективный теплообмен";
+}
+@if(Model != null)
+{
+    <form action="/Home/Index_k" method="post">
+        @if (Model != null)
+        {
+            <div><p>Число Рейнольдса </p></div>
+            <input value="@Math.Round(@Model.Re,2)" readonly>
+            <p>Число Нуссельта при шахматном расположении пучка  </p>
+            <input id="a" value="@Math.Round(@Model.Nu_sh,2)" readonly />
+            <p>Число Нуссельта при коридорной расположении пучка </p>
+            <input id="b" value="@Math.Round(@Model.Nu_k,2)" readonly />
+        }
+
+    </form>
+}
+
+<div>
+    <canvas id="myChart"></canvas>
+</div>
+<script src="~/js/chart.js"></script>
+
+<script>
+    const ctx = document.getElementById('myChart');
+
+    var a = parseFloat(document.getElementById("a").value.replace(',', '.'));
+    var b = parseFloat(document.getElementById("b").value.replace(',', '.'));
+
+   const data ={
+       labels:['Шахматное','Коридорное'],
+       datasets:[
+           {
+               label:'Число Нуссельта',
+               data:[a,b],
+                borderColor: '#010101',
+           }
+       ]
+   };
+   const configBar = {
+       type:'bar',
+       data:data,
+       
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                title: {
+                    display: true,
+                    text: 'График'
+                }
+            }
+        },
+    };
+   new Chart(ctx,configBar);
+</script>

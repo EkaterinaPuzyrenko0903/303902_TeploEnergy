@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programm\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\programm\\WebApplication1\\ClassLib\\ClassLib.csproj": {
+    "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programm\\WebApplication1\\ClassLib\\ClassLib.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\ClassLib.csproj",
         "projectName": "ClassLib",
-        "projectPath": "D:\\programm\\WebApplication1\\ClassLib\\ClassLib.csproj",
+        "projectPath": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\ClassLib.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\programm\\WebApplication1\\ClassLib\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\programm\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programm\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\programm\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\Honor\\.nuget\\packages\\",
-        "outputPath": "D:\\programm\\WebApplication1\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Honor\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\programm\\WebApplication1\\ClassLib\\ClassLib.csproj": {
-                "projectPath": "D:\\programm\\WebApplication1\\ClassLib\\ClassLib.csproj"
+              "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\ClassLib.csproj": {
+                "projectPath": "C:\\Users\\Honor\\Documents\\GitHub\\303902_TeploEnergy\\WebApplication1\\ClassLib\\ClassLib.csproj"
               }
             }
           }

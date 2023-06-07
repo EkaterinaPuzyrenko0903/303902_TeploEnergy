@@ -9,10 +9,20 @@
         {
             <div><p>Число Рейнольдса </p></div>
             <input value="@Math.Round(@Model.Re,2)" readonly>
-            <p>Число Нуссельта при шахматном расположении пучка  </p>
-            <input id="a" value="@Math.Round(@Model.Nu_sh,2)" readonly />
-            <p>Число Нуссельта при коридорном расположении пучка </p>
-            <input id="b" value="@Math.Round(@Model.Nu_k,2)" readonly />
+            if(Model.Re>1000)
+            {
+                <p>Число Нуссельта при шахматном расположении пучка  </p>
+                <input id="a" value="@Math.Round(@Model.Nu_sh,2)" readonly />
+                <p>Число Нуссельта при коридорном расположении пучка </p>
+                <input id="b" value="@Math.Round(@Model.Nu_k,2)" readonly />
+
+            }
+            else if(Model.Re<1000)
+            {
+                <p>Число Нуссельта при шахматном и коридорном расположении пучка  </p>
+                <input id="a" value="@Math.Round(@Model.Nu_sh_k,2)" readonly />
+            }
+
         }
 
     </form>

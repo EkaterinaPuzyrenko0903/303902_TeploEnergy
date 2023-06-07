@@ -11,6 +11,7 @@ namespace ClassLib
         public double Re { get; set; }   //Число Рейнольдса
         public double Nu_sh { get; set; } //Критерий Нусселта
         public double Nu_k { get; set; }
+        public double Nu_sh_k { get; set; }
         public double ps { get; set; } //параметр
         public double s { get; set; } //эффективная толщина излучающего слоя
         public double d { get; set; } //Диаметр

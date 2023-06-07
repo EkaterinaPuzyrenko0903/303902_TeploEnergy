@@ -10,3 +10,15 @@ D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.dll
 D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\refint\ClassLib.dll
 D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.pdb
 D:\programm\WebApplication1\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.deps.json
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.dll
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\bin\Debug\net7.0\ClassLib.pdb
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.csproj.AssemblyReference.cache
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfoInputs.cache
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.AssemblyInfo.cs
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.csproj.CoreCompileInputs.cache
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.dll
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\refint\ClassLib.dll
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ClassLib.pdb
+C:\Users\Honor\Documents\GitHub\303902_TeploEnergy\WebApplication1\ClassLib\obj\Debug\net7.0\ref\ClassLib.dll

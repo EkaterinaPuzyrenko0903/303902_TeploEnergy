@@ -49,7 +49,7 @@ namespace ClassLib
             }
             else if (ps > 7 && ps < 13)
             {
-                s = (2.82 * ps - 10.6) * d;
+                s = (2.82 * ps - 10.6) * d; 
             }
             
             double k_e = ((0.8 + (1.6 * 0.11)) * (1 - 0.00038 * (t + 273))) / Math.Pow((0.11 + 0.13) * s, 0.5);

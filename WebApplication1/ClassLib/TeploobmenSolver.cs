@@ -1,10 +1,8 @@
-﻿
-using System.Data;
+﻿using System.Data;
 
 namespace ClassLib
 {
     public class TeploobmenSolver
-
     {
         public double d { get; set; } //Диаметр трубы (м)
         public double S1 { get; set; } //Поперечный шаг 
@@ -12,12 +10,7 @@ namespace ClassLib
         public double w { get; set; } //скорость потока (м\с)
         public double v { get; set; } //коэффициент кинематической молекулярной вязкости
         public double t { get; set; } //средняя температура потока
-        public double Pr { get; set; } //Число Рейнольдса
         public double s { get; set; }
-        public double Nu_sh { get; set; }//Число Нуссельта для шахматного 
-        public double Nu_k { get; set; }//Число Нуссельты для коридорного 
-        public double Nu_sh_k { get; set; }
-
 
         public TeploobmenSolver(Input input)
         {
@@ -31,14 +24,14 @@ namespace ClassLib
         public Output calc()
         {
             v= (0.00000000007 * Math.Pow(t,2))+ 0.00000009 * t + 0.00001;
-            Pr = 0.0000003 * Math.Pow(t,2)- 0.0003*t+0.7729;
+            double Pr = 0.0000003 * Math.Pow(t,2)- 0.0003*t+0.7729;
             double Re = w*d/v;
             //Шахматное(Re > 1000)
-            Nu_sh = 0.41 * Math.Pow(Re , 0.6) * Math.Pow(Pr, 0.36);
+            double Nu_sh = 0.41 * Math.Pow(Re , 0.6) * Math.Pow(Pr, 0.36);
             //Коридорное расположение (Re > 1000)
-            Nu_k = 0.22 * Math.Pow(Re , 0.65) * Math.Pow(Pr, 0.36);
+            double Nu_k = 0.22 * Math.Pow(Re , 0.65) * Math.Pow(Pr, 0.36);
             //Шахматное и коридорное расположение (Re<1000)
-            Nu_sh_k = 0.56 * Math.Pow(Re, 0.5) * Math.Pow(Pr, 0.36);
+            double Nu_sh_k = 0.56 * Math.Pow(Re, 0.5) * Math.Pow(Pr, 0.36);
             //Лучистый теплообмен
             double ps = (S1+S2)/d;
             
